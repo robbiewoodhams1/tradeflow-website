@@ -118,7 +118,7 @@ export default function Footer() {
           href="/signin"
           className="text-white text-md hover:underline cursor-pointer"
         >
-          <h3>&copy; 2025 StoryTimeAI. All rights reserved.</h3>
+          <h3>&copy; 2025 TradeFlow. All rights reserved.</h3>
         </a>
         <a 
           href="/signin"

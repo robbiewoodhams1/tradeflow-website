@@ -35,7 +35,7 @@ export default function FAQsButton({ items }: FAQsProps) {
             <h3 className="text-lg font-semibold text-gray-800">{item.question}</h3>
           </button>
           {openIndex === index && (
-            <p className="mt-2 text-gray-700 text-base">{item.answer}</p>
+            <p className="mt-5 text-gray-700 text-lg">{item.answer}</p>
           )}
         </div>
       ))}

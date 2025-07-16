@@ -10,8 +10,8 @@ const jost = Jost({
 
 
 export const metadata: Metadata = {
-  title: "ClassFlow",
-  description: "Welcome to ClassFlow",
+  title: "TradeFlow",
+  description: "Welcome to TradeFlow",
 };
 
 export default function RootLayout({

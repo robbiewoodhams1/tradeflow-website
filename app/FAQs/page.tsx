@@ -14,52 +14,52 @@ export default function FAQsPage() {
 
     const items: FAQsItem[] = [
         {
-            question: "What is HouseFlow Pro?",
-            answer: "HouseFlow Pro gives you access to premium features such as more customisation tools and analytics.",
+            question: "What is TradeFlow?",
+            answer: "TradeFlow is a quoting app built specifically for tradespeople such as builders, electricians, plumbers, mechanics etc. It helps you create, send, and manage professional quotes quickly and easily",
         },
         {
-            question: "How much does it cost?",
-            answer: "HouseFlow Pro costs £2.99/month per group. You only pay for the groups you upgrade.",
+            question: "Who is TradeFlow for?",
+            answer: "TradeFlow is designed for anyone working in the trades, such as self-employed tradesmen, small business owners, or even larger teams. If you quote jobs, TradeFlow is for you.",
         },
         {
-            question: "What happens if I cancel my subscription?",
-            answer: "You’ll retain Pro features until the end of your billing period. After that, the group will be downgraded to free.",
+            question: "How long does it take to create a quote?",
+            answer: "You can generate a fully itemised, professional quote in under 2 minutes. Select tasks, add materials, and send ... it’s that simple.",
         },
         {
-            question: "Can I upgrade more than one group?",
-            answer: "Yes! Each group has its own subscription. You can upgrade as many groups as you like.",
+            question: "Can I save and reuse common job templates?",
+            answer: "Yes! You can save frequently used tasks, materials, and entire quote templates for instant reuse.",
         },
         {
-            question: "Do all group members need Pro?",
-            answer: "No. Only one member needs to upgrade the group. Once it’s Pro, all members benefit.",
+            question: "Can I save and reuse returning customers?",
+            answer: "Yes! You can save recurring customers for instant reuse",
         },
         {
-            question: "Can I get a refund?",
-            answer: "Refunds are generally not provided unless there's a billing error. Contact support for help.",
+            question: "Can I customise my quotes?",
+            answer: "Absolutely. You can customise your logo, business details, terms & conditions, and even tweak line items per job.",
         },
         {
-            question: "How do I delete my account?",
-            answer: "To request account deletion, please fill out the contact form located in the app settings. Our team will permanently remove your data within 48 hours.",
+            question: "Do I need to be tech-savvy to use it?",
+            answer: "Not at all. TradeFlow is built to be simple, fast, and intuitive. No training required.",
         },
         {
-            question: "How do I delete a group?",
-            answer: "Tap into the group settings and choose 'Delete Group'. Only the group creator or owner can perform this action.",
+            question: "Is TradeFlow free?",
+            answer: "Yes, TradeFlow is completely free to use. With the free version, you can save 1 quote template and up to 3 customer profiles.",
         },
         {
-            question: "How do I create a group?",
-            answer: "On the Group page, tap the 'Create a Group' button, then enter a name for your group. You can invite others via email or share your invite code.",
+            question: "What do I get if I upgrade?",
+            answer: "Upgrading unlocks unlimited templates, unlimited customers, advanced features like quote analytics, job tracking, and more. It's designed for tradespeople who want to level up their workflow.",
         },
         {
-            question: "How do I invite someone to my group?",
-            answer: "Inside your group, press the 'Invite Member' button and either share the group’s invite code or send them a direct invite by email.",
+            question: "Can I try the paid features before upgrading?",
+            answer: "Yes — we offer a free trial of the Pro version so you can test out all the premium features before committing.",
         },
         {
-            question: "What can I use HouseFlow for?",
-            answer: "HouseFlow helps manage shared living and group tasks. It's ideal for households, roommates, or team collaborations.",
+            question: "Can I downgrade from the paid version later?",
+            answer: "Yes, you can downgrade anytime. If you do, you'll still keep access to your existing quotes, but you’ll only be able to actively use 1 template and 3 customer slots.",
         },
         {
-            question: "Where can I get support?",
-            answer: "Use the contact form in the Settings tab to reach our support team. We'll respond within 24–48 hours.",
+            question: "Who is the Pro plan for?",
+            answer: "The Pro plan is perfect for tradesmen who quote regularly, want to save time with reusable templates, manage a growing customer base, and get insights from analytics.",
         },
         {
             question: "I found a bug — how do I report it?",
@@ -69,7 +69,7 @@ export default function FAQsPage() {
 
 
   return(
-    <div className="w-full flex flex-col bg-blue-400 items-center gap-20">
+    <div className="w-full flex flex-col bg-blue-200 items-center gap-20">
       <Header />
 
       <h2 className='text-blue-950 text-3xl font-bold'>Frequently Asked Questions</h2>

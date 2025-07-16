@@ -9,12 +9,12 @@ export default function HeroSection() {
       <div className="max-w-[2000px] w-full flex flex-col lg:flex-row justify-around items-center gap-10">
         {/* Text content */}
         <div className="flex flex-col gap-10 items-start">
-          <h1 className="text-white md:text-5xl text-3xl font-bold leading-snug">
-            Simplify Lessons.<br />
-            Speed Up Marking.<br />
+          <h1 className="text-white md:text-5xl text-4xl font-bold leading-snug">
+            Built for Trades.<br />
+            Optimsied for Speed.<br />
             Save Hours Every Week.
           </h1>
-          <h3 className="text-xl text-white">Download for free today!</h3>
+          <h3 className="text-xl text-white">Download TradeFlow for free today!</h3>
           <div className="flex flex-row gap-10">
             <a href="/signup" className="relative w-[160px] h-[50px]">
               <Image

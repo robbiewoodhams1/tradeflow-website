@@ -1,7 +1,7 @@
 import TestimonialCard from "./TestimonialCard";
-import Image1 from '@/public/splash/Writing a letter-rafiki.png';
-import Image2 from '@/public/splash/Teacher student-rafiki.png';
-import Image3 from '@/public/splash/Online test-rafiki.png';
+import Image1 from '@/public/splash/Bricklayer-rafiki.png';
+import Image2 from '@/public/splash/Prototyping process-rafiki.png';
+import Image3 from '@/public/splash/Mail sent-rafiki.png';
 
 export default function TestimonialsSection() {
   const TestimonialCards = [

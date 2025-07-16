@@ -1,27 +1,27 @@
 import FeatureCard from "./FeatureCard";
-import Image1 from '@/public/splash/Writing a letter-rafiki.png';
-import Image2 from '@/public/splash/Teacher student-rafiki.png';
-import Image3 from '@/public/splash/Online test-rafiki.png';
+import Image1 from '@/public/splash/Bricklayer-rafiki.png';
+import Image2 from '@/public/splash/Prototyping process-rafiki.png';
+import Image3 from '@/public/splash/Mail sent-rafiki.png';
 
 export default function FeaturesSection() {
   
   const FeatureCards = [
     {
-      title: 'Text Simplifiers',
+      title: 'Fast Quote Builder',
       description:
-        "Instantly adapt any lesson or resource to match your students' reading level. Just paste your content, select a reading age, and let AI simplify the text — with options to bold keywords, add glossaries, and more.",
+        "Create professional job quotes in under 2 minutes. Simply select tasks, adjust quantities, and send.",
       image: Image1, 
     },
     {
-      title: 'Automated Marking',
+      title: 'Save Quote Templates',
       description:
-        "Save hours every week by letting AI mark work for you. Customisable to your marking scheme with detailed feedback generation.",
+        "Create and reuse job templates to speed up quoting for common tasks.",
       image: Image2,
     },
     {
-      title: 'Lesson Generator',
+      title: 'Send Quotes Instantly',
       description:
-        'Create full lessons from a topic in seconds — with activities, explanations, key questions, and assessment points.',
+        'Email quotes directly to customers from the app, or export as PDF to send manually.',
       image: Image3,
     },
   ];
