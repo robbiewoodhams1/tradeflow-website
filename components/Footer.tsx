@@ -1,6 +1,10 @@
 'use client';
 
 import Link from 'next/link';
+import TikTok from '@/assets/tiktok.svg';
+import Instagram from '@/assets/instagram.svg';
+import Facebook from '@/assets/facebook.svg';
+
 
 export default function Footer() {
 
@@ -12,15 +16,17 @@ export default function Footer() {
     { name: 'Contact', href: '/contact' },
   ];
 
-    const learnItems = [
+  const learnItems = [
     { name: 'FAQs', href: '/FAQs' },
     { name: 'Privacy Policy', href: '/privacy' },
     { name: 'Terms & Conditions', href: '/terms' },
     { name: 'Delete Data & Account', href: '/delete' },
   ];
 
+
+
   return (
-    <footer className="w-full p-10 bg-[#0F2C76] flex flex-col items-center gap-20">
+    <footer className="w-full p-10 bg-[#5F609C] flex flex-col items-center gap-20">
 
       <div className="w-full flex flex-col md:flex-row justify-between">
         <nav className="flex flex-row gap-20 items-start">
@@ -95,12 +101,24 @@ export default function Footer() {
 
       </div>
 
+      <div className="w-full flex flex-row items-center justify-center gap-10">
+        {[{ name: 'TikTok', href: '/FAQs', Icon: TikTok },
+          { name: 'Instagram', href: '/privacy', Icon: Instagram },
+          { name: 'Facebook', href: '/terms', Icon: Facebook }]
+          .map(({ name, href, Icon }) => (
+            <Link key={name} href={href}>
+              <Icon className="w-12 h-12 fill-white hover:fill-blue-300 transition duration-300" />
+            </Link>
+        ))}
+      </div>
+
+
       <div className="w-full flex md:flex-row flex-col justify-around items-center gap-10">
         <a 
           href="/signin"
           className="text-white text-md hover:underline cursor-pointer"
         >
-          <h3>&copy; 2025 ClassFlow. All rights reserved.</h3>
+          <h3>&copy; 2025 StoryTimeAI. All rights reserved.</h3>
         </a>
         <a 
           href="/signin"

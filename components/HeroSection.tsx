@@ -1,7 +1,7 @@
 import Image from 'next/image';
-import Image1 from '@/public/splash/Classroom-rafiki.png';
+import Image1 from '@/public/splash/Phones.png';
 import Google from '@/public/splash/GetItOnGooglePlay_Badge_Web_color_English.png';
-import Apple from '@/public/splash/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg';
+import Apple from '@/public/splash/5a902db97f96951c82922874.png';
 
 export default function HeroSection() {
   return (
