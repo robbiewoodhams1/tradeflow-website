@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="flex flex-col gap-10 items-start">
           <h1 className="text-white md:text-5xl text-4xl font-bold leading-snug">
             Built for Trades.<br />
-            Optimsied for Speed.<br />
+            Optimised for Speed.<br />
             Save Hours Every Week.
           </h1>
           <h3 className="text-xl text-white">Download TradeFlow for free today!</h3>
