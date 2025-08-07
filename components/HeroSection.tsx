@@ -16,7 +16,7 @@ export default function HeroSection() {
           </h1>
           <h3 className="text-xl text-white">Download TradeFlow for free today!</h3>
           <div className="flex flex-row gap-10">
-            <a href="/signup" className="relative w-[160px] h-[50px]">
+            <a href="https://play.google.com/store/apps/details?id=com.tradeflow" className="relative w-[160px] h-[50px]">
               <Image
                 src={Google}
                 alt="Google Play"
