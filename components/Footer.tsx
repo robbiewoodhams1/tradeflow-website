@@ -9,11 +9,11 @@ import Facebook from '@/assets/facebook.svg';
 export default function Footer() {
 
   const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'Features', href: '#features' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '/#home' },
+    { name: 'Features', href: '/#features' },
+    { name: 'Testimonials', href: '/#testimonials' },
+    { name: 'About', href: '/#about' },
+    { name: 'Contact', href: '/#contact' },
   ];
 
   const learnItems = [
