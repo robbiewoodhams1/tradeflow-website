@@ -19,9 +19,9 @@ export default function FeatureCard({ image, title, description }: FeatureCardPr
             />
             <h4 className="text-2xl font-semibold text-[#0F2C76]">{title}</h4>
             <p className="text-[#333] text-base">{description}</p>
-            <button className=" bg-[#0022FF] text-white font-semibold px-4 py-2 w-[50%] rounded-full hover:bg-blue-700 transition cursor-pointer">
+            {/* <button className=" bg-[#0022FF] text-white font-semibold px-4 py-2 w-[50%] rounded-full hover:bg-blue-700 transition cursor-pointer">
               Learn more
-            </button>
+            </button> */}
           </div>
     )
 }

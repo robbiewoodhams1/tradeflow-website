@@ -4,11 +4,11 @@ import Link from 'next/link';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 
 const navItems = [
-  { name: 'Home', href: '/' },
-  { name: 'Features', href: '/features' },
-  { name: 'Testimonials', href: '/testimonials' },
-  { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
+  { name: 'Home', href: '#home' },
+  { name: 'Features', href: '#features' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'About', href: '#about' },
+  { name: 'Contact', href: '#contact' },
 ];
 
 export default function Header() {

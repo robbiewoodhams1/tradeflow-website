@@ -41,7 +41,7 @@ export default function FeaturesSection() {
         ))}
       </div>
 
-      <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700">Explore all Features and Services</h3>
+      {/* <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700">Explore all Features and Services</h3> */}
 
     </div>
   );

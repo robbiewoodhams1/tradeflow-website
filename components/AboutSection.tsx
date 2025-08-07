@@ -40,9 +40,9 @@ export default function AboutSection() {
         </div>
       </div>
 
-      <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700 mt-10">
+      {/* <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700 mt-10">
         Learn More
-      </h3>
+      </h3> */}
     </div>
   );
 }

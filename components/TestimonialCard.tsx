@@ -4,11 +4,11 @@ import Image from "next/image";
 type TestimonialCardProps = {
   image: StaticImageData;
   name: string;
-  school: string;
+  info: string;
   description: string;
 };
 
-export default function TestimonialCard({ image, name, school, description }: TestimonialCardProps) {
+export default function TestimonialCard({ image, name, info, description }: TestimonialCardProps) {
   return (
     <div className="bg-blue-300 rounded-2xl p-6 py-10 w-full max-w-md shadow-md flex flex-col gap-4">
       <div className="flex flex-row items-center gap-5 mb-4">
@@ -21,7 +21,7 @@ export default function TestimonialCard({ image, name, school, description }: Te
         />
         <div className="flex flex-col">
           <h4 className="text-2xl font-semibold text-[#0F2C76]">{name}</h4>
-          <h5 className="text-xl font-semibold text-[#0F2C76]">{school}</h5>
+          <h5 className="text-xl font-semibold text-[#0F2C76]">{info}</h5>
         </div>
       </div>
 

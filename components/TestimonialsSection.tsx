@@ -6,45 +6,45 @@ import Image3 from '@/public/splash/Mail sent-rafiki.png';
 export default function TestimonialsSection() {
   const TestimonialCards = [
     {
-      name: 'Joe Woodhams',
-      school: 'Knole Academy',
+      name: 'Nicolas Bell',
+      info: 'Mechanic',
       description:
-        "Instantly adapt any lesson or resource to match your students' reading level. Just paste your content, select a reading age, and let AI simplify the text — with options to bold keywords, add glossaries, and more.",
+        "TradeFlow saves me a ton of time. I can send out quotes and invoices without messing around on a laptop. It’s all there on my phone, quick and easy.",
       image: Image1,
     },
     {
-      name: 'Jane Doe',
-      school: 'Oakfield School',
+      name: 'Dan Jimitsky',
+      info: 'Electrician',
       description:
-        "This tool has revolutionised how I prepare materials. My students are more engaged, and I'm saving hours every week.",
+        "I used to dread the paperwork after a job. Now I get it sorted before I even leave the site. Customers love how professional it looks too.",
       image: Image2,
     },
     {
-      name: 'Emily Smith',
-      school: 'Greenhill Primary',
+      name: 'Charlie Woodhams',
+      info: 'Carpenter',
       description:
-        "I love how easy it is to customise content for different ability levels. It’s like having a teaching assistant powered by AI.",
+        "It’s made my workflow smoother. I just reuse previous quotes and update the details. No more typing the same thing out over and over.",
       image: Image3,
     },
-        {
-      name: 'Joe Woodhams',
-      school: 'Knole Academy',
+    {
+      name: 'Jamie Woodhams',
+      info: 'Joiner',
       description:
-        "Instantly adapt any lesson or resource to match your students' reading level. Just paste your content, select a reading age, and let AI simplify the text — with options to bold keywords, add glossaries, and more.",
+        "I’ve tried a few apps, but this is the first one that actually fits how I work. Everything is straight to the point and easy to use on-site.",
       image: Image1,
     },
     {
-      name: 'Jane Doe',
-      school: 'Oakfield School',
+      name: 'Ricki Mansel',
+      info: 'Plumber',
       description:
-        "This tool has revolutionised how I prepare materials. My students are more engaged, and I'm saving hours every week.",
+        "What used to take me 15 minutes now takes 1. I can create a quote, send it, and move on to the next job. Couldn’t ask for more.",
       image: Image2,
     },
     {
-      name: 'Emily Smith',
-      school: 'Greenhill Primary',
+      name: 'Joe Decoine',
+      info: 'Mechanic',
       description:
-        "I love how easy it is to customise content for different ability levels. It’s like having a teaching assistant powered by AI.",
+        "I’ve got templates for different services now. It’s fast, looks professional, and means I spend less time on admin and more time in the garage.",
       image: Image3,
     },
   ];
@@ -58,16 +58,16 @@ export default function TestimonialsSection() {
           <TestimonialCard
             key={index}
             name={card.name}
-            school={card.school}
+            info={card.info}
             image={card.image}
             description={card.description}
           />
-        ))}
+        ))} 
       </div>
 
-      <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700 mt-10">
+      {/* <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700 mt-10">
         Explore all Testimonials
-      </h3>
+      </h3> */}
     </div>
   );
 }
