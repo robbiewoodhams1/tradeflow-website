@@ -115,13 +115,13 @@ export default function Footer() {
 
       <div className="w-full flex md:flex-row flex-col justify-around items-center gap-10">
         <a 
-          href="/signin"
+          href="#home"
           className="text-white text-md hover:underline cursor-pointer"
         >
           <h3>&copy; 2025 TradeFlow. All rights reserved.</h3>
         </a>
         <a 
-          href="/signin"
+          href="https://woodhams-software.vercel.app/"
           className="text-white text-md hover:underline cursor-pointer"
         >
           <h3>Created by Woodhams Software</h3>
