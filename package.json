@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
+    "@supabase/supabase-js": "^2.56.1",
     "@svgr/webpack": "^8.1.0",
     "@types/webpack": "^5.28.5",
     "next": "15.4.1",
