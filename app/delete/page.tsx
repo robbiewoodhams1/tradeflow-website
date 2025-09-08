@@ -21,7 +21,7 @@ export default function DeletePage() {
     {
       title: '2. Deleting Your Account',
       answer:
-        'To delete your entire account and all associated data, please contact us directly at: woodhamshelp@gmail.com. Our team will process your request as quickly as possible. Once completed, all of your saved data and login information will be permanently deleted.'
+        'To delete your entire account and all associated data, go to settings > account > delete account.'
     }
   ]
 
