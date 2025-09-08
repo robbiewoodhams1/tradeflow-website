@@ -12,7 +12,7 @@ export default function PrivacyPage() {
 
       <h2 className='text-blue-950 text-3xl font-bold'>Privacy Policy</h2>
 
-      <div className="flex flex-col gap-8 max-w-4xl w-full text-base md:text-lg text-gray-800 leading-relaxed">
+      <div className="flex flex-col gap-8 max-w-4xl w-full text-base md:text-lg text-gray-800 leading-relaxed p-10">
 
         <p><strong className="font-semibold">Effective Date:</strong> 16/07/2025</p>
 

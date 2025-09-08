@@ -102,9 +102,8 @@ export default function Footer() {
       </div>
 
       <div className="w-full flex flex-row items-center justify-center gap-10">
-        {[{ name: 'TikTok', href: '/FAQs', Icon: TikTok },
-          { name: 'Instagram', href: '/privacy', Icon: Instagram },
-          { name: 'Facebook', href: '/terms', Icon: Facebook }]
+        {[{ name: 'TikTok', href: 'https://www.tiktok.com/@tradeflow.app?_t=ZN-8zZAtZpjdos&_r=1', Icon: TikTok },
+          { name: 'Instagram', href: 'https://www.instagram.com/tradeflow_app?igsh=MXRwcHBxaGFmN293Mg==', Icon: Instagram }]
           .map(({ name, href, Icon }) => (
             <Link key={name} href={href}>
               <Icon className="w-12 h-12 fill-white hover:fill-blue-300 transition duration-300" />
