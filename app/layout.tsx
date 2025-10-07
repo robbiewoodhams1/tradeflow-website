@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const jost = Jost({
   subsets: ['latin'],
-  weight: ['400', '500', '700'], // choose what you need
+  weight: ['400', '500', '700'],
   display: 'swap',
 });
 
@@ -25,6 +26,12 @@ export default function RootLayout({
         className={`${jost.className} antialiased`}
       >
         {children}
+
+        <Script
+          src="https://challenges.cloudflare.com/turnstile/v0/api.js"
+          async
+          defer
+        />
       </body>
     </html>
   );
