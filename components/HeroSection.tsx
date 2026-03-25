@@ -5,30 +5,43 @@ import Apple from '@/public/splash/5a902db97f96951c82922874.png';
 
 export default function HeroSection() {
   return (
-    <div className="bg-[#0F2C76] min-h-screen px-6 flex justify-center items-center">
-      <div className="max-w-[2000px] w-full flex flex-col lg:flex-row justify-around items-center gap-10">
+    <div className="bg-[#0F2C76] py-20 px-6 flex justify-center items-center min-h-[calc(100vh-72px)]">
+      <div className="max-w-7xl w-full flex flex-col lg:flex-row justify-between items-center gap-16">
         {/* Text content */}
-        <div className="flex flex-col gap-10 items-start">
-          <h1 className="text-white md:text-5xl text-4xl font-bold leading-snug">
+        <div className="flex flex-col gap-8 items-start max-w-xl">
+          <div className="bg-white/15 text-white text-sm font-medium px-4 py-1.5 rounded-full border border-white/20">
+            Free to Download
+          </div>
+
+          <h1 className="text-white text-5xl md:text-6xl font-bold leading-tight">
             Built for Trades.<br />
-            Optimised for Speed.<br />
-            Save Hours Every Week.
+            <span className="text-blue-200">Optimised</span> for Speed.
           </h1>
-          <h3 className="text-xl text-white">Download TradeFlow for free today!</h3>
-          <div className="flex flex-row gap-10">
-            <a href="https://play.google.com/store/apps/details?id=com.tradeflow" className="relative w-[160px] h-[50px]">
+
+          <p className="text-white/70 text-lg leading-relaxed">
+            Create professional quotes in under 2 minutes. Send them instantly. Save hours every week — all from your phone.
+          </p>
+
+          <div className="flex flex-row gap-4 flex-wrap">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.tradeflow"
+              className="relative w-[160px] h-[50px]"
+            >
               <Image
                 src={Google}
-                alt="Google Play"
+                alt="Get it on Google Play"
                 fill
                 style={{ objectFit: 'contain' }}
                 priority
               />
             </a>
-            <a href="https://apps.apple.com/us/app/tradeflow-app/id6748545161" className="relative w-[160px] h-[50px]">
+            <a
+              href="https://apps.apple.com/us/app/tradeflow-app/id6748545161"
+              className="relative w-[160px] h-[50px]"
+            >
               <Image
                 src={Apple}
-                alt="App Store"
+                alt="Download on the App Store"
                 fill
                 style={{ objectFit: 'contain' }}
                 priority
@@ -37,11 +50,11 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Image */}
-        <div className="lg:w-[700px] lg:h-[700px] w-[400px] h-[400px] relative">
+        {/* Phone image */}
+        <div className="lg:w-[580px] lg:h-[580px] w-[300px] h-[300px] relative flex-shrink-0">
           <Image
             src={Image1}
-            alt="Welcome illustration"
+            alt="TradeFlow app running on a phone"
             fill
             style={{ objectFit: 'contain' }}
             priority

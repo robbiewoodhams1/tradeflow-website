@@ -1,48 +1,49 @@
-import FeatureCard from "./FeatureCard";
-import Image1 from '@/public/splash/Bricklayer-rafiki.png';
-import Image2 from '@/public/splash/Prototyping process-rafiki.png';
-import Image3 from '@/public/splash/Mail sent-rafiki.png';
+import FeatureCard from './FeatureCard';
+import { BoltIcon, DocumentDuplicateIcon, EnvelopeIcon } from '@heroicons/react/24/outline';
+
+const featureCards = [
+  {
+    title: 'Fast Quote Builder',
+    description:
+      'Create professional job quotes in under 2 minutes. Simply select tasks, adjust quantities, and send.',
+    Icon: BoltIcon,
+  },
+  {
+    title: 'Save Quote Templates',
+    description:
+      'Create and reuse job templates to speed up quoting for common tasks — no more starting from scratch.',
+    Icon: DocumentDuplicateIcon,
+  },
+  {
+    title: 'Send Quotes Instantly',
+    description:
+      'Email quotes directly to customers from the app, or export as PDF to send manually. Right from the job site.',
+    Icon: EnvelopeIcon,
+  },
+];
 
 export default function FeaturesSection() {
-  
-  const FeatureCards = [
-    {
-      title: 'Fast Quote Builder',
-      description:
-        "Create professional job quotes in under 2 minutes. Simply select tasks, adjust quantities, and send.",
-      image: Image1, 
-    },
-    {
-      title: 'Save Quote Templates',
-      description:
-        "Create and reuse job templates to speed up quoting for common tasks.",
-      image: Image2,
-    },
-    {
-      title: 'Send Quotes Instantly',
-      description:
-        'Email quotes directly to customers from the app, or export as PDF to send manually.',
-      image: Image3,
-    },
-  ];
-
   return (
-    <div className="bg-[#C3D5FF] min-h-screen md:px-20 py-20 px-5 flex flex-col items-center justify-center gap-30">
-      <h3 className="text-3xl text-[#001F4D] font-semibold text-center">Our Features & Services</h3>
+    <div className="bg-[#EEF3FF] py-24 px-6">
+      <div className="max-w-6xl mx-auto flex flex-col items-center gap-16">
+        <div className="text-center flex flex-col gap-4 max-w-2xl">
+          <h2 className="text-4xl font-bold text-[#001F4D]">Features Built for Trades</h2>
+          <p className="text-gray-500 text-lg">
+            Everything you need to quote faster, look more professional, and win more work.
+          </p>
+        </div>
 
-      <div className="w-full max-w-[1600px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {FeatureCards.map((card, index) => (
-          <FeatureCard
-              key={index}
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 gap-8">
+          {featureCards.map((card) => (
+            <FeatureCard
+              key={card.title}
               title={card.title}
-              image={card.image}
               description={card.description}
-          />
-        ))}
+              Icon={card.Icon}
+            />
+          ))}
+        </div>
       </div>
-
-      {/* <h3 className="text-xl text-[#001F4D] font-semibold cursor-pointer hover:text-blue-700">Explore all Features and Services</h3> */}
-
     </div>
   );
 }
