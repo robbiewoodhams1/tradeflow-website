@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "ios": {
+    "minimumVersion": "4.0.0",
+    "latestVersion": "4.1.0"
+  },
+  "android": {
+    "minimumVersion": "4.0.0",
+    "latestVersion": "4.1.0"
+  },
+  "maintenance": {
+    "enabled": false
+  }
+}
